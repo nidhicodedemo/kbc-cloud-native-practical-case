@@ -14,7 +14,7 @@ public class CocktailServiceImp implements CocktailService {
     public CocktailServiceImp (){
 
         list =new ArrayList<>();
-        list..add(new Cocktails("145","Margerita","Cocktail Glass","Rub the rim of the glass with the lime slice to make the salt stick to it"))
+        list.add(new Cocktails("145","Margerita","Cocktail Glass","Rub the rim of the glass with the lime slice to make the salt stick to it"));
     }
 
 

@@ -2,10 +2,10 @@ package com.springrest.springrest.entities;
 
 public class Cocktails {
 
-    private String cocktailId;
-    private String name;
-    private String glass;
-    private String instructions;
+    public String cocktailId;
+    public String name;
+    public String glass;
+    public String instructions;
 
 
     /*creating constructor*/
@@ -18,13 +18,48 @@ public class Cocktails {
         this.instructions = instructions;
     }
 
-    /* creating default constructor */
-
-    public class Cocktails() {
-
-        super();
+    public String getCocktailId() {
+        return cocktailId;
     }
 
+    public void setCocktailId(String cocktailId) {
+        this.cocktailId = cocktailId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGlass() {
+        return glass;
+    }
+
+    public void setGlass(String glass) {
+        this.glass = glass;
+    }
+
+    public String getInstructions() {
+        return instructions;
+    }
+
+    public void setInstructions(String instructions) {
+        this.instructions = instructions;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Cocktails{" +
+                "cocktailId='" + cocktailId + '\'' +
+                ", name='" + name + '\'' +
+                ", glass='" + glass + '\'' +
+                ", instructions='" + instructions + '\'' +
+                '}';
+    }
 }
 
 
@@ -62,4 +97,4 @@ public class Cocktails {
 
 
 
-}
+

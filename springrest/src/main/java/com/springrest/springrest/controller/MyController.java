@@ -31,7 +31,7 @@ public class MyController {
 
 
     @GetMapping ("/cocktails")
-    public String search(@RequestParam String search)
+    //public String search(@RequestParam String search);
     public List<Cocktails> getCocktails ()
     {
 
